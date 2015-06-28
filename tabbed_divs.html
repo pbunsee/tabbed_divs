@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tabbed_divs.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="tabbed_divs.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <ul class="tabs">
+      <li class="button"><a href="#tab1">Description</a></li>
+      <li class="button"><a href="#tab2">Specs</a></li>
+    </ul>
+    <div class="pane">
+      <div id="tab1">
+        <h2>Hello</h2>
+        <p>Hello hello hello.</p>
+        <p>Goodbye goodbye, goodbye</p>
+      </div>
+      <div id="tab2" style="display:none;">
+        <h2>Hello2</h2>
+        <p>Hello2 hello2 hello2.</p>
+        <p>Goodbye2 goodbye2, goodbye2</p>
+      </div>
+    </div>
+    <div class="content">This should really appear on a new line.</div>
+  </body>
+</html>
+

@@ -1,0 +1,72 @@
+
+
+/* Remove the underline from the anchors in the menu */
+.tabs a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+}
+
+/* Remove default padding from the menu list - i.e. the bullets */
+.tabs ul {
+  height: auto;
+  /* padding: 10px 0px; */
+  margin: 5px;
+  border: solid;
+}
+
+/* set the menu to display horizontally, with spacing between menu items */
+.tabs li {
+  display: inline;
+  line-height: 20px;
+  padding: 10px 10px 20px 20px;
+  position: static;
+  opacity: 0.9;
+  border: solid;
+  font-color: black;
+}
+
+.tabs {
+  position: fixed;
+  top: 0;
+  left: 5px;
+  width: 90%;
+  border: none;
+  z-index: 2;
+  height: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.button {
+   border-top: 1px solid; /*#030608;*/
+   background: lightblue; /*#bac7cf;*/
+   /*background: -webkit-gradient(linear, left top, left bottom, from(#d6d8d9), to(#bac7cf));
+   background: -webkit-linear-gradient(top, #d6d8d9, #bac7cf);
+   background: -moz-linear-gradient(top, #d6d8d9, #bac7cf);
+   background: -ms-linear-gradient(top, #d6d8d9, #bac7cf);
+   background: -o-linear-gradient(top, #d6d8d9, #bac7cf);*/
+   padding: 13px 26px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   /*-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;*/
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: blue; /*#4b5359; */
+   background: green; /*#4b5359;*/
+   color: #ccc; 
+   }
+.button:active {
+   border-top-color: yellow; /*#091117;*/
+   background: pink; /*#091117;*/
+   }
+
